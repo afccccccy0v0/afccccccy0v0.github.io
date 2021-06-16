@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    height: 700px;
+    background-color: skyblue;
+    background-image: url(img/首页.png);
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+}
+
+.nav {
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.tt li {
+    float: left;
+    line-height: 200px;
+    margin: 0 50px;
+    font-size: 20px;
+}
+
+.tt li a {
+    color: white;
+}
+
+.tt li a:hover {
+    color: rgb(3, 196, 162)
+}
+
+.mid {
+    width: 450px;
+    height: 230px;
+    margin: 0 auto;
+}
+
+.mid .pb {
+    text-align: center;
+    font-size: 54px;
+    text-shadow: 0 2px 2px #333333;
+    margin: 0 0 30px;
+    color: white;
+}
+
+.mid .gb {
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 0 2px 2px #333333;
+    margin: 0 0 30px;
+    color: white;
+}
+
+.lj {
+    width: 195px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 45px;
+    margin: 30px 130px;
+    background-color: transparent;
+}
+
+.lj a {
+    line-height: 45px;
+    margin: 0 35px;
+    font-size: 20px;
+    color: white;
+}
+
+.lj:hover {
+    background-color: rgb(3, 196, 162)
+}
+
+.ss {
+    height: 500px;
+}
+
+.s1 {
+    text-align: center;
+    width: 630px;
+    height: 80px;
+    margin: 70px auto;
+
+}
+
+em {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.e {
+    color: rgb(3, 196, 162);
+}
+
+.sv {
+    text-align: center;
+    height: 330px;
+    margin: 0 auto;
+}
+
+
+.sv li {
+    width: 230px;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid #f4f4f4;
+    margin: 0 20px;
+}
+
+.sv li:hover .b1 {
+    background-color: rgb(3, 196, 162);
+}
+
+.sv li:hover .b1p {
+    color: white;
+}
+
+.p {
+    float: left;
+    margin: 20px 70px;
+}
+
+.f {
+    float: left;
+}
+
+.sv .f1 {
+    padding: 20px 55px;
+    font-weight: normal;
+}
+
+.sv .f3 {
+    padding: 20px 45px;
+    font-weight: normal;
+}
+
+.sv .f4 {
+    padding: 20px 70px;
+    font-weight: normal;
+}
+
+.sv .f5 {
+    padding: 20px 65px;
+    font-weight: normal;
+}
+
+.sv .f2 {
+    color: rgb(134, 134, 134);
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.b1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(249, 249, 249);
+    margin: 22px 0;
+}
+
+.b1 p {
+    line-height: 50px;
+    text-align: center;
+    color: rgb(134, 134, 134);
+}
+
+.sb {
+    text-align: center;
+    height: 200px;
+    margin: 0 auto;
+}
+
+
+.sb li {
+    width: 230px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.abc {
+    font-size: 18px;
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.sb .cc {
+    margin: 0 65px;
+}
+
+.sb li {
+    text-align: center;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.sb li p {
+    overflow: hidden;
+    margin: 10px 25px;
+    font-size: 14px;
+    color: rgb(136, 136, 151);
+}
+
+.bt {
+    width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.bt1,
+.bt2 {
+    float: left;
+    margin: 0 50px;
+}
+
+
+.it {
+    width: 1300px;
+    border: 1px solid skyblue;
+    margin: 20px auto;
+}
+
+.bt3 {
+    height: 120px;
+}
+
+.bt3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.tm {
+    text-indent: 2em;
+    margin: 10px 0;
+}
+
+.tma {
+    border-bottom: 1px solid skyblue;
+}
+
+.nr {
+    text-indent: 4em;
+    font-size: 16px;
+    margin: 10px 10px;
+    line-height: 25px;
+}
+
+.ljwm {
+    padding: 5px 0px;
+}
+
+.tb {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.bg {
+    margin: 100px auto;
+    border-collapse: collapse
+}
