@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>养宠心得</title>
+    <link rel="stylesheet" href="yqxd.css">
+    <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        <div class="nav">
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <ul class="tt">
+                <li><a href="index.html">公司主页</a></li>
+                <li><a href="cwmd.html">宠物墓地</a></li>
+                <li><a href="yqxd.html">养宠心得</a></li>
+                <li><a href="cwbx.html">宠物保险</a></li>
+                <li><a href="lxyy.html">联系预约</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="msg">
+        <ul class="pl">
+            <li class="xq">
+                <div class="nr1">1号用户评论
+                    <div>hello,我是第1条评论 2021-6-6 12:00:00
+                        <a href="javascript:;" class="reply_btn">回复</a></div>
+                </div>
+
+            </li>
+            <li class="xq">
+                <div class="nr2">2号用户评论
+                    <div>hello,我是第2条评论 2021-6-6 12:00:00
+                        <a href="javascript:;" class="reply_btn">回复</a></div>
+                </div>
+
+            </li>
+            <li class="xq">
+                <div class="nr3">3号用户评论
+                    <div>hello,我是第3条评论 2021-6-6 12:00:00
+                        <a href="javascript:;" class="reply_btn">回复</a></div>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            //页面加载完毕后开始执行的事件
+            $(".reply_btn").click(function () {
+                $(".reply_textarea").remove();
+                $(this).parent().append(
+                    "<div class='reply_textarea'><textarea name='' cols='40' rows='5'></textarea><br/><input type='submit' value='发表' /></div>"
+                );
+            });
+        });
+    </script>
+    <div class="bt3"><img src="img/bt3.png" alt=""></div>
+</body>
+
+</html>

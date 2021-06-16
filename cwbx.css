@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    height: 700px;
+    background-color: skyblue;
+    background-image: url(img/p5.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+}
+
+.nav {
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.tt li {
+    float: left;
+    line-height: 200px;
+    margin: 0 50px;
+    font-size: 20px;
+}
+
+.tt li a {
+    color: white;
+}
+
+.tt li a:hover {
+    color: rgb(3, 196, 162)
+}
+
+
+.bt {
+    width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.bt1,
+.bt2 {
+    float: left;
+    margin: 0 50px;
+}
+
+
+.it {
+    width: 1300px;
+    border: 1px solid skyblue;
+    margin: 80px auto;
+}
+
+.bt3 {
+    height: 120px;
+}
+
+.bt3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.bx {
+    position: relative;
+    width: 1300px;
+    border: 1px solid skyblue;
+    margin: 80px auto;
+    padding: 20px 10px;
+}
+
+.abc {
+    text-indent: 2em;
+    margin: 10px 0;
+}
+
+.cba {
+    text-indent: 2em;
+    font-size: 16px;
+    margin: 10px 10px;
+    line-height: 25px;
+}
+
+.gm {
+    position: absolute;
+    bottom: 5px;
+    right: 90px;
+}
+
+.lj {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.sx {
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.sx p {
+    text-align: center;
+    margin: 0 auto;
+}
