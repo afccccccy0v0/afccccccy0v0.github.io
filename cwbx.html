@@ -8,6 +8,15 @@
     <title>宠物保险</title>
     <link rel="stylesheet" href="cwbx.css">
 </head>
+<script>
+    function myFunction() {
+        alert("您的余额不足！");
+    }
+
+    function ljxq() {
+        alert('详情会在之后上线哦！敬请期待...')
+    }
+</script>
 
 <body>
     <div class="title">
@@ -27,8 +36,8 @@
         <p class="cba">
             客户可以购买公司的宠物殡葬险，有效期一年，价格为100元每年，到期需重缴。宠物殡葬险生效期为缴费成功后一个月，有效期一年。在宠物殡葬险有效期内，如果宠物不幸离世，可以享受宠物火化7折，有效期间未使用的不做退费。这有利于收入有限的顾客为宠物处理后事时减少顾虑。
         </p>
-        <input type="button" value="立即购买" class="gm">
-        <input type="button" value="了解详情" class="lj">
+        <input type="button" value="立即购买" onclick="myFunction()" value="显示警告框" name="aaa" class="gm">
+        <input type="button" value="了解详情" onclick="ljxq()" value="显示警告框" class="lj">
     </div>
     <div class="sx">
         <p>更多保险持续上线中...</p>
