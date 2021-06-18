@@ -104,20 +104,20 @@ a {
 
 .md {
     height: 600px;
-    margin: 10px 30px;
+    margin: 10px auto;
     text-align: center;
 }
 
 .md1 {
-    width: 380px;
+    width: 300px;
     height: 450px;
     display: inline-block;
     margin: 10px 30px;
 }
 
 .p1 {
-    width: 380px;
-    height: 380px;
+    width: 300px;
+    height: 300px;
 }
 
 .p1 img {
@@ -154,6 +154,5 @@ a {
 
 .hd1 {
     text-align: center;
-    margin: 0 30px;
-
+    margin: 0 auto;
 }
