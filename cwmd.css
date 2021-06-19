@@ -144,6 +144,14 @@ a {
     border-radius: 25px;
 }
 
+.xx1:hover,
+.xx2:hover,
+.xx3:hover,
+.xx4:hover,
+.xx5:hover {
+    background-color: skyblue;
+}
+
 .xx1 a,
 .xx2 a,
 .xx3 a,
